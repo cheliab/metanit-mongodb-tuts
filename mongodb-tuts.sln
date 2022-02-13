@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mongodb-tuts", "mongodb-tuts\mongodb-tuts.csproj", "{A9174CD4-DA84-48F9-B7EC-E44FFCA7A0FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_002_WorkWithModels", "N_002_WorkWithModels\N_002_WorkWithModels.csproj", "{DA3DA275-16C2-4C6A-AB44-A82D1C4EB10F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_003_ModelAttributes", "N_003_ModelAttributes\N_003_ModelAttributes.csproj", "{A8A12621-8788-4E8B-8EA5-AC60243AF13F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_004_IgnoreIfNullAttribute", "N_004_IgnoreIfNullAttribute\N_004_IgnoreIfNullAttribute.csproj", "{C7AD3C6F-488A-4FDC-B865-FEF845BA8D87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9174CD4-DA84-48F9-B7EC-E44FFCA7A0FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9174CD4-DA84-48F9-B7EC-E44FFCA7A0FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9174CD4-DA84-48F9-B7EC-E44FFCA7A0FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9174CD4-DA84-48F9-B7EC-E44FFCA7A0FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA3DA275-16C2-4C6A-AB44-A82D1C4EB10F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3DA275-16C2-4C6A-AB44-A82D1C4EB10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3DA275-16C2-4C6A-AB44-A82D1C4EB10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3DA275-16C2-4C6A-AB44-A82D1C4EB10F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8A12621-8788-4E8B-8EA5-AC60243AF13F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8A12621-8788-4E8B-8EA5-AC60243AF13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8A12621-8788-4E8B-8EA5-AC60243AF13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8A12621-8788-4E8B-8EA5-AC60243AF13F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7AD3C6F-488A-4FDC-B865-FEF845BA8D87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7AD3C6F-488A-4FDC-B865-FEF845BA8D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7AD3C6F-488A-4FDC-B865-FEF845BA8D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7AD3C6F-488A-4FDC-B865-FEF845BA8D87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
