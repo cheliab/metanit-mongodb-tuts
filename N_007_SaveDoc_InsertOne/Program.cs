@@ -7,7 +7,8 @@ class Program
 {
     public static async Task Main()
     {
-        await SaveDoc_InsertOne();
+        // await SaveDoc_InsertOne();
+        await SaveDoc_InsertMany();
     }
 
     private static async Task SaveDoc_InsertOne()
@@ -40,7 +41,16 @@ class Program
         {
             {"Name", "Bill"},
             {"Age", 32},
-            {"", new BsonArray{}}
+            {"Languages", new BsonArray{"english", "german"}}
         };
+
+        BsonDocument steveDoc = new BsonDocument
+        {
+            {"Name", "Steve"},
+            {"Age", 31},
+            {"Languages", new BsonArray {"english", "french"}}
+        };
+
+        await collection.InsertManyAsync(new[] {billDoc, steveDoc});
     }
 }
