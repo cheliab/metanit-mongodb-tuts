@@ -12,6 +12,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_005_BsonClassMap", "N_005
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_006_ConventionPack", "N_006_ConventionPack\N_006_ConventionPack.csproj", "{8A8FC9BA-29A0-4133-A73F-F9FDB48CD3F4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SaveDocuments", "SaveDocuments", "{BF489270-E8E2-4E88-B385-A90AFBEBE979}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N_007_SaveDoc_InsertOne", "N_007_SaveDoc_InsertOne\N_007_SaveDoc_InsertOne.csproj", "{577FE532-88E8-4197-8B55-E1BD02ACEC34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +46,12 @@ Global
 		{8A8FC9BA-29A0-4133-A73F-F9FDB48CD3F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A8FC9BA-29A0-4133-A73F-F9FDB48CD3F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A8FC9BA-29A0-4133-A73F-F9FDB48CD3F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{577FE532-88E8-4197-8B55-E1BD02ACEC34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{577FE532-88E8-4197-8B55-E1BD02ACEC34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{577FE532-88E8-4197-8B55-E1BD02ACEC34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{577FE532-88E8-4197-8B55-E1BD02ACEC34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{577FE532-88E8-4197-8B55-E1BD02ACEC34} = {BF489270-E8E2-4E88-B385-A90AFBEBE979}
 	EndGlobalSection
 EndGlobal
