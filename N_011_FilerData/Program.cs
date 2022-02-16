@@ -9,7 +9,8 @@ class Program
     {
         // FindPeople();
         // FindPeople_GTFilter();
-        FindPeople_Or_Filter();
+        // FindPeople_Or_Filter();
+        FindPeople_And_Filter();
     }
 
     private static void FindPeople()
@@ -70,6 +71,23 @@ class Program
 
         var people = collection.Find(filter).ToList();
         foreach (var person in  people)
+        {
+            Console.WriteLine(person);
+        }
+    }
+
+    private static void FindPeople_And_Filter()
+    {
+        var collection = GetCollectionPeople();
+
+        var filter = new BsonDocument("$and", new BsonArray
+        {
+            new BsonDocument("Age", new BsonDocument("$gt", 31)),
+            new BsonDocument("Name", "Bill")
+        });
+
+        var people = collection.Find(filter).ToList();
+        foreach (var person in people)
         {
             Console.WriteLine(person);
         }
